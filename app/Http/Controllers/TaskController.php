@@ -38,13 +38,13 @@ class TaskController extends Controller
         $task->save();
     }
 
-    public function archive()
+    public function archive($id)
     {
-        // Get the id of the task
+        // Get the id of the task, if no result is found throw an exception
         $task = Task::findOrFail($id);
-        //
+        // If archived, un-archive. If not archived, archive.
         $task->archive = ! $task->archive;
-        // Saves task as archived
+        // Saves task
         $task->save();
     }
 
