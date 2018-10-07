@@ -18,6 +18,5 @@
     },
     "dependencies": {
         "bulma": "^0.7.1",
-        "vuejs-datepicker": "^1.5.3"
     }
 }

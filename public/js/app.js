@@ -994,15 +994,6 @@ var app = new Vue({
     el: '#app'
 });
 
-var date_picker = new Vue({
-    el: '#date_picker',
-    components: {
-        Datepicker: __WEBPACK_IMPORTED_MODULE_1_vuejs_datepicker__["a" /* default */]
-    },
-    data: {
-        date: new Date()
-    }
-});
 
 /***/ }),
 /* 11 */
